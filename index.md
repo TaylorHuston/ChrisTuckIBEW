@@ -5,7 +5,7 @@
 layout: page
 ---
 
-<img src="images/ChrisMain.png" style="float: right; max-width: 50%">
+<img src="images/Chris.png" style="float: right; max-width: 50%">
 
 Today, more than 4300 IBEW members across the state will head to work representing our great union.
 
