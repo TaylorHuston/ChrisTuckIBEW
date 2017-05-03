@@ -10,6 +10,7 @@
   <meta name="description" content="Chris Tuck for President of Alaska IBEW Local 1547.">
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="css/main.css">
   <link rel="canonical" href="http://localhost:4000/about.html">
   <link rel="alternate" type="application/rss+xml" title="Chris Tuck for IBEW" href="/%20/feed.xml"> 
@@ -31,7 +32,7 @@
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li role="presentation"><a href="index.html">Home</a></li>
+            <li role="presentation" id="home"><a href="index.html">Home</a></li>
             <li role="presentation"><a href="index.html">About</a></li>
             <li role="presentation"><a href="index.html">Contact</a></li>
           </ul>
@@ -48,6 +49,7 @@
       <p>This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at <a href="https://jekyllrb.com/">jekyllrb.com</a></p>
 
 
+      
     </div>
   </main>
 
@@ -63,6 +65,11 @@
       </div>
     </div>
   </footer>
+
+  <script type="text/javascript">    
+    var currentLink = $("li#");    
+    currentLink.toggleClass('active');
+  </script>
 
 </body>
 

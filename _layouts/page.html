@@ -18,7 +18,7 @@
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li role="presentation"><a href="index.html">Home</a></li>
+            <li role="presentation" id="home"><a href="index.html">Home</a></li>
             <li role="presentation"><a href="index.html">About</a></li>
             <li role="presentation"><a href="index.html">Contact</a></li>
           </ul>
@@ -33,6 +33,7 @@
   <main class="page-content" aria-label="Content">
     <div class="container-fluid">
       {{ content }}
+      
     </div>
   </main>
 
@@ -48,6 +49,11 @@
       </div>
     </div>
   </footer>
+
+  <script type="text/javascript">    
+    var currentLink = $("li#{{ page.link }}");    
+    currentLink.toggleClass('active');
+  </script>
 
 </body>
 
