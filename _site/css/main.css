@@ -9,7 +9,11 @@ html {
 body {
   background-color: rgb(9, 56, 94);
   padding-top: 50px;
+<<<<<<< HEAD
 /*  height: 100%;*/
+=======
+  height: 100%;
+>>>>>>> 79b68a1ec72fdd34ca53e8155c79e5c293725b13
 }
 
 header.container-fluid {
@@ -50,19 +54,30 @@ header img {
 }
 
 main {
+<<<<<<< HEAD
 /*  min-height: 100%;*/
+=======
+  min-height: 100%;
+>>>>>>> 79b68a1ec72fdd34ca53e8155c79e5c293725b13
   background: url('../images/bg-texture.png');
 }
 
 main .container-fluid {
+<<<<<<< HEAD
 /*  min-height: 100%;*/
+=======
+  min-height: 100%;
+>>>>>>> 79b68a1ec72fdd34ca53e8155c79e5c293725b13
   padding: 25px;
   font-size: 16px;
   /*  background-color: rgb(248, 243, 243);
   */
 }
+<<<<<<< HEAD
 
 footer {
   height: 200px;
   color: white;
 }
+=======
+>>>>>>> 79b68a1ec72fdd34ca53e8155c79e5c293725b13

@@ -3,7 +3,10 @@
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: page
+<<<<<<< HEAD
 link: home
+=======
+>>>>>>> 79b68a1ec72fdd34ca53e8155c79e5c293725b13
 ---
 
 <img src="images/Chris.png" style="float: right; max-width: 50%">
