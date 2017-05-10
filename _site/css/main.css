@@ -8,13 +8,8 @@ html {
 
 body {
   background-color: rgb(9, 56, 94);
-  padding-top: 50px;
-<<<<<<< HEAD
-/*  height: 100%;*/
-=======
-  height: 100%;
->>>>>>> 79b68a1ec72fdd34ca53e8155c79e5c293725b13
-}
+/*  padding-top: 50px;*/
+  height: 100%;}
 
 header.container-fluid {
   padding: 0;
@@ -27,6 +22,7 @@ header img {
 .navbar {
   background-color: rgb(51, 125, 188);
   border-width: 0px;
+  display: none;
 }
 
 .navbar-default .navbar-nav>li>a {
