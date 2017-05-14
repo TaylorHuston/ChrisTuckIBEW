@@ -46,8 +46,14 @@ header img {
   border-top-width: 0px;
 }
 
-.nav>li:hover {
+.nav>li:hover, .navbar-default .navbar-nav>.active>a:hover  {
   background-color: rgba(0, 0, 0, .3);
+  color: white;
+}
+
+.navbar-default .navbar-nav>.active>a {
+  background-color: rgb(9, 56, 94);
+  color: white;
 }
 
 main {
@@ -88,6 +94,9 @@ p {
   }
   .nav li {
     text-align: right;
+  }
+  .navbar-nav {
+    margin: 0 -15px;
   }
   #ChrisMic {
     display: none;
