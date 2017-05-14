@@ -73,9 +73,24 @@ footer a {
   color: white;
 }
 
+#ChrisMic {
+  max-width: 50%;
+  float: right;
+}
+
+p {
+  padding-left: 10px;
+}
+
 @media only screen and (max-width: 768px) {
-    body {
-       font-size: 14px;
-    }
+  body {
+     font-size: 14px;
+  }
+  .nav li {
+    text-align: right;
+  }
+  #ChrisMic {
+    display: none;
+  }  
 }
 

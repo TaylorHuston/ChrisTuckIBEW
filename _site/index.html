@@ -34,8 +34,8 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
             <li role="presentation" id="home"><a href="index.html">Home</a></li>
-            <li role="presentation"><a href="index.html">About</a></li>
-            <li role="presentation"><a href="index.html">Contact</a></li>
+            <li role="presentation" id="experience"><a href="experience.html">Experience</a></li>
+            <li role="presentation" id="journeyman"><a href="journeyman.html">Journeyman</a></li>
           </ul>
         </div>
       </div>
@@ -81,7 +81,6 @@ Together, we are stronger.</p>
 
 <p>I thank you for your hard work and dedication and I ask that you vote for me, Chris Tuck, for business manager of the IBEW.</p>
 
-
     </div>
   </main>
 
@@ -98,6 +97,11 @@ Together, we are stronger.</p>
       </div>
     </div>
   </footer>
+  
+  <script type="text/javascript">    
+    var currentLink = $("li#home");    
+    currentLink.toggleClass('active');
+  </script>
 
 </body>
 
