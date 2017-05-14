@@ -6,8 +6,12 @@ layout: page
 link: home
 ---
 
-<img src="images/Chris.png" style="float: right; max-width: 50%">
-
+<div style="max-width: 800px; margin: 10px auto;">
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/A1htDnrk0e4"></iframe>
+  </div>
+</div>
+    
 Today, more than 4300 IBEW members across the state will head to work representing our great union.
 
 Linemen, wiremen, telephone, utility, hospital, and government workers, and all those we represent in between, will arrive to work with full faith and confidence that through this union, they are able to provide a better financial future for their families, that they are effectively represented and that together we are stronger.
